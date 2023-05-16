@@ -25,8 +25,9 @@ body{
     display: inline-block;
     padding: 0 100px;
 }
+/*Secção turma*/
 .turma{
-    background-image: -moz-linear-gradient(rgba(3, 158, 197, 0.705), rgba(0, 245, 253, 0.705));
+    background-image: -moz-linear-gradient(rgb(6, 255, 243), rgba(3, 74, 77, 0.705));
 
 }
 .turma-titulo{
@@ -40,6 +41,8 @@ text-align: center;
 
 }
 
+/*Secção estudante*/
+
 .estudante{
-    background-image: linear-gradient();
+    background-image: linear-gradient(rgba(8, 245, 245, 0.705),rgba(6, 168, 197, 0.705));
 }
