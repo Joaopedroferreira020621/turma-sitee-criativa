@@ -1,10 +1,10 @@
-body{
-    font-family:sans-serif
-}
+
 *{
     margin: 0px;
     padding: 0px;
-
+}
+body{
+    font-family: sans-serif;
 }
 
 .cabecalho{
@@ -14,28 +14,32 @@ body{
     padding: 30px;
     font-size: 24px;
     justify-content: space-around;
-}
-
+    }
+    
 .cabecalho-imagem{
     width: 150px;
     height: 150px;
-
-
 }
+
 .cabecalho-item{
     display: inline-block;
     padding: 0 100px;
-
 }
-
 .turma{
-    background-image: linear-gradient(rgb(5, 116, 116),rgb(3, 59, 59))
+    background-image: -moz-linear-gradient(rgba(3, 158, 197, 0.705), rgba(0, 245, 253, 0.705));
+
+}
+.turma-titulo{
+padding-bottom: 30px;
+text-align: center;
+
 }
 
-.turma-titulo{
-    padding-bottom: 30px;
-    text-align: center;
-}
 .turma-imagem{
     width: 300px;
+
+}
+
+.estudante{
+    background-image: linear-gradient();
 }
