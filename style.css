@@ -1,16 +1,16 @@
-/*Seletor universal*/
+                            /*Seletor universal*/
 *{
     margin: 0px;
     padding: 0px;
 }
-/*Corpo da pagina*/
+                            /*Corpo da pagina*/
 body{
     font-family: sans-serif;
 }
-/*Secção cabecalho*/
+                            /*Secção cabecalho*/
 .cabecalho{
-    background-color: rgb(5, 116, 116);
-    color: rgb(0, 255, 242);
+    background-color: rgba(0, 255, 213, 0.788);
+    color: rgba(0, 0, 0, 0.918);
     display: flex;
     padding: 30px;
     font-size: 24px;
@@ -28,49 +28,60 @@ body{
     text-decoration: underline;
 }
 
-/*Secção turma*/
+                                  /*Secção turma*/
 .turma{
-    background-image:linear-gradient(rgb(6, 255, 243), rgba(3, 74, 77, 0.705));
+    background-image:linear-gradient(rgb(0, 196, 186), rgba(0, 90, 94, 0.726));
     padding: 30px;
 
 }
 .turma-titulo{
 padding-bottom: 30px;
 text-align: center;
-
+font-size: 30px;
 }
+
 .turma-div{
     display: flex;
     justify-content: center;
+    font-size: 20px;
+    padding: 0 200px;
 }
 
 .turma-imagem{
     width: 300px;
-
 }
 
-/*Secção estudante*/
+                                 /*Secção estudante*/
 
 .estudante{
-    background-image: linear-gradient(rgba(8, 245, 245, 0.705),rgba(6, 168, 197, 0.705));}
+    background-image: linear-gradient(rgba(8, 245, 245, 0.705),rgba(0, 217, 255, 0.705));}
     
 
 .estudante-titulo{
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     padding: 30px 0;}
 
-.estudante-div{
-        text-align: center;}
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.estudante-div{text-align: center;}
 
 .estudante-imagem{
-            width: 90px;
-            height: 100px;}
+     width: 100px;
+     height:0 50px;}
 
 .estudante-icone{
-    width: 52px;
-    height: 53px;}
+    width: 30px;
+    height: 30px;}
 
 .estudante-legenda{
-        font-size: 14px;}
-        
+        font-size: 10px;}
+.rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
