@@ -10,7 +10,7 @@ body{
 /*Secção cabecalho*/
 .cabecalho{
     background-color: rgb(5, 116, 116);
-    color: white;
+    color: rgb(0, 255, 242);
     display: flex;
     padding: 30px;
     font-size: 24px;
@@ -18,18 +18,20 @@ body{
     }
     
 .cabecalho-imagem{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .cabecalho-item{
     display: inline-block;
     padding: 0 100px;
+    text-decoration: underline;
 }
 
 /*Secção turma*/
 .turma{
-    background-image: -moz-linear-gradient(rgb(6, 255, 243), rgba(3, 74, 77, 0.705));
+    background-image:linear-gradient(rgb(6, 255, 243), rgba(3, 74, 77, 0.705));
+    padding: 30px;
 
 }
 .turma-titulo{
@@ -50,8 +52,8 @@ text-align: center;
 /*Secção estudante*/
 
 .estudante{
-    background-image: linear-gradient(rgba(8, 245, 245, 0.705),rgba(6, 168, 197, 0.705));
-    padding: 30px;}
+    background-image: linear-gradient(rgba(8, 245, 245, 0.705),rgba(6, 168, 197, 0.705));}
+    
 
 .estudante-titulo{
     text-align: center;
